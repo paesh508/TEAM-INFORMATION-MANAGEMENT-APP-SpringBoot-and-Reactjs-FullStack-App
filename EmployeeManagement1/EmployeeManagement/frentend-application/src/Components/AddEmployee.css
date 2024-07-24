@@ -1,0 +1,58 @@
+
+.employee-form-container {
+    text-align: center;
+    margin: 50px auto;
+    background-color: #F8F4EC; /* Light blue-grey background color */
+    padding: 40px;
+    margin-top: 50%;
+    color: #2c3e50;
+    border-radius: 50px;
+    max-width: 500px;
+    max-height:500px;
+    box-shadow: 0 5px 10px #0b378f; /* Subtle shadow */
+  }
+  
+  .employee-form-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Deep blue color */
+    text-shadow: 1px 1px 2px #00246b; /* Subtle text shadow */
+  }
+  
+  .employee-form-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employee-form-table td {
+    padding: 10px;
+  }
+  
+  .employee-form-input {
+     width: calc(100%-16px);
+    padding: 6px; 
+    border: 1px solid #00246b;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: black;  /*input font color*/
+    background-color: white; /*input lable
+    /* width: calc(100% - 16px); /* Reduce the width of the textbox */
+    /* padding: 6px; Reduce the padding around the textbox */ 
+  }
+  
+  .employee-form-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #00246b; /* Green color */
+    color: #CADCFC;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+   
+  }
+  
+  .employee-form-button:hover {
+    background-color:#3498db; /* Darker green color on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }

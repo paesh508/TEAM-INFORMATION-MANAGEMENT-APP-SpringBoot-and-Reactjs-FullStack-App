@@ -1,0 +1,61 @@
+/* Navbar.css */
+.navbar-container {
+  background-color:#CADCFC;
+  color:#2c3e50;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 5px 8px;
+  border-radius: 30px;
+  padding:10px;
+  margin-left: 30px;
+  /* display:flex;
+
+  justify-content: space-between; 
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;*/
+} 
+ .navbar-title {
+  float: center;
+  color:#2c3e50;
+  text-shadow: 1px 1px 2px #00246B; /* Subtle text shadow */
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+} 
+  
+.navbar-link {
+  float: left;
+ display: block;
+ color: #CADCFC;
+  background-color:#00246B;
+  text-align: center;
+  padding: 7px 100px;
+  text-decoration: none;
+  font-size: 20px;
+  /* margin: 0 10px;
+  transition: background-color 0.3s ease; */
+}
+
+.navbar-link:hover {
+  background-color:#8aa1c9;
+  color: #CADCFC;
+}
+.content-container{
+  
+      padding-top: 80px; /* Adjusted padding based on navbar height */
+      text-align: center; /* Center align content */
+      color: #01204E; /* Dark blue color for text */
+      font-family: Garamond, serif;
+      font-size: 25px;
+      overflow-y: auto; /* Enable vertical scrolling */
+      max-height: 65vh; /* Limit the height to the viewport height */
+      margin: 0 auto; /* Center the container horizontally */
+      background-color: #CADCFC;
+    }
+
